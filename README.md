@@ -1,5 +1,6 @@
 <div align="center">
-![magritte](https://user-images.githubusercontent.com/114035440/216844538-f86f3696-8776-4a81-89e0-9b98cfbeb62f.jpeg)
+<img width="975" alt="Bildschirmfoto 2023-02-05 um 15 38 52" src="https://user-images.githubusercontent.com/114035440/216844572-1f81b2b9-6134-42e7-84fe-590f208f6959.png">
+
 </div>
     
 # pipex
