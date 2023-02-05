@@ -1,6 +1,5 @@
 <div align="center">
-<img width="975" alt="Bildschirmfoto 2023-02-05 um 15 38 52" src="https://user-images.githubusercontent.com/114035440/216844572-1f81b2b9-6134-42e7-84fe-590f208f6959.png">
-
+<img width="267" alt="Bildschirmfoto 2023-02-05 um 15 40 15" src="https://user-images.githubusercontent.com/114035440/216844642-aec392e7-5726-4d3e-bb6c-0234ad0239c7.png">
 </div>
     
 # pipex
