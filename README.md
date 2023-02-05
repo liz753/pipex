@@ -62,7 +62,7 @@ Here are examples of commands and their execution with my program:
 ## Tips for 42 students 
 *   make sure you fully understand the functions you need to use for your pipe creation and how pipes work generally, I find this article very       helpful: https://www.rozmichelle.com/pipes-forks-dups/
 *   I personally find it cleaner and easier to understand to use one child process for each command since it's clear what is excecuted when and       the parent process stays in the main
-*   read the man page ``man 2 wait``, ``man perror`` and ``man dup2``
+*   read the man pages ``man 2 wait``, ``man perror`` and ``man dup2``
 *   when fork is called, all open fd's are duplicated to the child process
 *   when you're working with envp, it's better to make a copy of it, this way you don't risk modifying it by mistake
 *   if you want to avoid scrolling down each time, you can use this valgrind cmd: 
