@@ -1,3 +1,7 @@
+<div align="center">
+![magritte](https://user-images.githubusercontent.com/114035440/216844538-f86f3696-8776-4a81-89e0-9b98cfbeb62f.jpeg)
+</div>
+    
 # pipex
 perform a IPC (Inter Process Communication) by coding a pipe mechanism
 
