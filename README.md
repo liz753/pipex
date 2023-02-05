@@ -75,6 +75,9 @@ Here are examples of commands and their execution with my program:
     
 A little diagram I made that helped my visual brain understand IPC:
 
+<div align="center">
+<img width="1270" alt="Bildschirmfoto 2023-02-05 um 16 22 36" src="https://user-images.githubusercontent.com/114035440/216846808-ae2fb38d-6769-44c8-88f1-aafd262628ea.png">
+</div>
 
 ## What I learned 
 By completing this project, I learned how to execute shell commands from within a program. Additionally, I learned that environment variables are a thing, why they exist and how to use them, outside and inside a C program. I generally deepened my understanding of processes and the communication between them as well as the difference between programs and processes. I learned how to correctly use file descriptors and  gained experience with reading from and writing to files. Overall, I gained an insight on process management, program execution and data handling. 
