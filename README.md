@@ -1,5 +1,5 @@
 # pipex
-handling pipes in C language
+perform a IPC (Inter Process Communication) by coding a pipe mechanism
 
 ## Table of Contents
 
@@ -16,15 +16,29 @@ It is about the following task:
 <img width="733" alt="Bildschirmfoto 2023-02-04 um 20 14 04" src="https://user-images.githubusercontent.com/114035440/216796531-3096bec3-e4d4-4144-a7c7-bc73cc078171.png">
 </div>
 
-PID 
+The general idea: we read from infile, execute cmd1 with infile as input, send the output to cmd2, which will write to outfile.
 
+####What does a pipe do? 
+A pipe connects a data flow from one process to another. Generally, you attach or "pipe" the output of one process to the input of another.
+<div align="center">
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4d95cf1-ed64-47b1-afe4-40e39d980e19/Untitled.png)
+</div>
+source: https://www.slideshare.net/tusharkute/implementation-of-pipe-in-linux?next_slideshow=1 
 ## Divide and Conquer 
 I got started with identifying the concepts that were new to me.
 
 <ins>1. Research</ins>
-*   ch
-*   im
-*   i
+*   concept of pipes
+*   concept of pipeline
+*   how to redirect input and output to and from files
+*   fd's, pipe call and pid 
+*   FIFO and LIFO
+*   read system call
+*   how to make babies in C (``fork()``)
+*   the particularity of the functions ``wait()`` and ``waitpid()`` as well as ``exec()`` and ``exit()``
+*   how to use ``dup2``
+*   which fd has to be closed at what moment?
+*   ``here_doc``
 
 <ins>2. Code Structure</ins>
 *   creating a Makefile that doesn't relink
@@ -47,13 +61,15 @@ Here are examples of commands and their execution with my program:
 ## Tips for 42 students 
 *   make sure you fully understand the functions you need to use for your pipe creation and how pipes work generally, I find this article very       helpful: https://www.rozmichelle.com/pipes-forks-dups/
 *   I personally find it cleaner and easier to understand to use one child process for each command since it's clear what is excecuted when and       the parent process stays in the main
+*   read the man page ``man 2 wait``, ``man perror`` and ``man dup2``
 *   when fork is called, all open fd's are duplicated to the child process
 *   when you're working with envp, it's better to make a copy of it, this way you don't risk modifying it by mistake
 *   if you want to avoid scrolling down each time, you can use this valgrind cmd: 
     ``valgrind --leak-check=full --show-leak-kinds=all --trace-children=yes ./<program> <args>``
     e.g: ``valgrind --leak-check=full --trace-children=yes ./pipex Makefile cat cat outfile``
     
+A little diagram I made that helped my visual brain understand IPC:
+
 
 ## What I learned 
-I learned that environment variables are a thing, why they exist and how to use them, outside and inside a C program. I 
-
+By completing this project, I learned how to execute shell commands from within a program. Additionally, I learned that environment variables are a thing, why they exist and how to use them, outside and inside a C program. I generally deepened my understanding of processes and the communication between them as well as the difference between programs and processes. I learned how to correctly use file descriptors and  gained experience with reading from and writing to files. Overall, I gained an insight on process management, program execution and data handling. 
