@@ -21,9 +21,10 @@ The general idea: we read from infile, execute cmd1 with infile as input, send 
 ####What does a pipe do? 
 A pipe connects a data flow from one process to another. Generally, you attach or "pipe" the output of one process to the input of another.
 <div align="center">
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4d95cf1-ed64-47b1-afe4-40e39d980e19/Untitled.png)
+![dataflow](https://user-images.githubusercontent.com/114035440/216842858-b8b7bc0b-414d-4dab-9111-5678b32113c0.png)
 </div>
 source: https://www.slideshare.net/tusharkute/implementation-of-pipe-in-linux?next_slideshow=1 
+
 ## Divide and Conquer 
 I got started with identifying the concepts that were new to me.
 
