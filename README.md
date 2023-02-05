@@ -18,7 +18,7 @@ It is about the following task:
 
 The general idea: we read from infile, execute cmd1 with infile as input, send the output to cmd2, which will write to outfile.
 
-####What does a pipe do? 
+###What does a pipe do? 
 A pipe connects a data flow from one process to another. Generally, you attach or "pipe" the output of one process to the input of another.
 <div align="center">
 <img width="608" alt="Bildschirmfoto 2023-02-05 um 15 23 51" src="https://user-images.githubusercontent.com/114035440/216842946-659a516a-d7f0-4666-9a12-1237e5a958e5.png">    
