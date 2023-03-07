@@ -63,6 +63,7 @@ I got started with identifying the concepts that were new to me.
 
 Here are examples of commands and their execution with my program: 
 
+
 ## Tips for 42 students 
 *   make sure you fully understand the functions you need to use for your pipe creation and how pipes work generally, I find this article very       helpful: https://www.rozmichelle.com/pipes-forks-dups/
 *   I personally find it cleaner and easier to understand to use one child process for each command since it's clear what is excecuted when and       the parent process stays in the main
@@ -76,7 +77,7 @@ Here are examples of commands and their execution with my program:
 A little diagram I made that helped my visual brain understand IPC:
 
 <div align="center">
-<img width="1270" alt="Bildschirmfoto 2023-02-05 um 16 22 36" src="https://user-images.githubusercontent.com/114035440/216846808-ae2fb38d-6769-44c8-88f1-aafd262628ea.png">
+<img width="1251" alt="Bildschirmfoto 2023-03-07 um 16 12 06" src="https://user-images.githubusercontent.com/114035440/223553994-7c4da2a1-52cb-4897-87ad-4e75fb3705f3.png">
 </div>
 
 ## What I learned 
