@@ -62,10 +62,12 @@ I got started with identifying the concepts that were new to me.
 ## Result 
 
 Here are examples of commands and their execution with my program: 
+
 Starting point:
 <div align="center">
 <img width="996" alt="Screen Shot 2023-03-09 at 2 14 55 PM" src="https://user-images.githubusercontent.com/114035440/224132207-cd3d8b02-cad8-49ac-be74-a46c5ec41cb5.png">
 </div>
+
 
 After execution, see the command lines in the terminal: 
 <div align="center">
