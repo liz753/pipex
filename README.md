@@ -62,7 +62,23 @@ I got started with identifying the concepts that were new to me.
 ## Result 
 
 Here are examples of commands and their execution with my program: 
+Starting point:
+<div align="center">
+<img width="996" alt="Screen Shot 2023-03-09 at 2 14 55 PM" src="https://user-images.githubusercontent.com/114035440/224132207-cd3d8b02-cad8-49ac-be74-a46c5ec41cb5.png">
+</div>
 
+After execution, see the command lines in the terminal: 
+<div align="center">
+<img width="995" alt="Screen Shot 2023-03-09 at 2 15 06 PM" src="https://user-images.githubusercontent.com/114035440/224132714-2c529faa-986e-4e5a-83aa-64ed08f7f611.png">
+</div>
+
+<div align="center">
+<img width="999" alt="Screen Shot 2023-03-09 at 2 15 54 PM" src="https://user-images.githubusercontent.com/114035440/224132731-33cbd872-7bad-47f1-8b4f-181028564c3b.png">
+</div>
+
+<div align="center">
+<img width="999" alt="Screen Shot 2023-03-09 at 2 21 41 PM" src="https://user-images.githubusercontent.com/114035440/224132739-da488db5-ddc1-411a-9531-3df9ec38c835.png">
+</div>
 
 ## Tips for 42 students 
 *   make sure you fully understand the functions you need to use for your pipe creation and how pipes work generally, I find this article very       helpful: https://www.rozmichelle.com/pipes-forks-dups/
